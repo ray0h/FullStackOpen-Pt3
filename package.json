@@ -8,7 +8,8 @@
     "dev": "nodemon index.js",
     "build:ui": "rm -rf build && cd ~/Project/FullStackOpen/osa2_Submission/second_set && rm -rf build && npm run build --prod && cp -r build ~/Project/FullStackOpen/osa3_Submission/phonebook_backend",
     "deploy": "git push heroku master",
-    "logs:build": "heroku logs --tail"
+    "logs:build": "heroku logs --tail",
+    "lint": "eslint ."
   },
   "author": "Ray Oh",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "save": "^2.4.0"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "nodemon": "^2.0.3"
   }
 }

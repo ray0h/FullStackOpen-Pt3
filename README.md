@@ -13,3 +13,5 @@ Ex. 3.10 - added backend to [Heroku](https://whispering-bastion-88524.herokuapp.
 [FullStackOpen Ex. 3.19-3.21](https://fullstackopen.com/osa3/validointi_ja_es_lint#tehtavat-3-19-3-21)
 
 Ex. 3.21 - added fullstack to [Heroku](https://whispering-bastion-88524.herokuapp.com) 
+
+[FullStackOpen Ex. 3.22](https://fullstackopen.com/osa3/validointi_ja_es_lint#tehtava-3-22)
