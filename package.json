@@ -4,16 +4,22 @@
   "description": "FullStackOpen Part 3 Exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build:ui": "rm -rf build && cd ~/Project/FullStackOpen/osa2_Submission/second_set && rm -rf build && npm run build --prod && cp -r build ~/Project/FullStackOpen/osa3_Submission/phonebook_backend",
+    "deploy": "git push heroku master",
+    "logs:build": "heroku logs --tail"
   },
   "author": "Ray Oh",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "mongoose": "^5.9.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "save": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
